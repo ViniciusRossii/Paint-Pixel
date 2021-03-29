@@ -45,7 +45,9 @@ document.getElementById('paint').addEventListener('mouseup', () => {
     mouseHold = 0
 })
 
-
+document.getElementById('paint').addEventListener('mouseout', () => {
+    mouseHold = 0
+})
 
 document.getElementById('pencil-size').addEventListener('input', () => {
     document.getElementById('pencil-size').value.length == 0 ? document.getElementById('pencil-size').value = 1 : null
