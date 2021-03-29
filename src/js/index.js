@@ -45,11 +45,14 @@ document.getElementById('paint').addEventListener('mouseup', () => {
     mouseHold = 0
 })
 
+
+
 document.getElementById('pencil-size').addEventListener('input', () => {
     document.getElementById('pencil-size').value.length == 0 ? document.getElementById('pencil-size').value = 1 : null
     document.getElementById('pencil-size').value < 1 ? document.getElementById('pencil-size').value = 1 : null
     pencil.pencilSize = document.getElementById('pencil-size').value
 })
+
 
 for (var c = 0; c < document.getElementsByClassName('button').length; c++) {
     document.getElementsByClassName('button')[c].addEventListener('click', (event) => {
