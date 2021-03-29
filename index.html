@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/icons/paint-palette.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/main.css">
+    <title>Pixel Paint</title>
+</head>
+<body>
+    <header>
+        <h1>Pixel Paint</h1>
+    </header>
+    <div id="paint-div">
+        <canvas id="paint" height="400px" width="1100px"></canvas>
+    </div>
+    <div id="buttons">
+        <span id="button1" class="button"></span>
+        <span id="button2" class="button"></span>
+        <span id="button3" class="button"></span>
+        <span id="button4" class="button"></span>
+        <span id="button5" class="button"></span>
+        <span id="button6" class="button"></span>
+        <span id="button7" class="button"></span>
+        <span id="button8" class="button"></span>
+        <span id="button9" class="button"></span>
+        <span id="button10" class="button"></span>
+        <span id="button11" class="button"></span>
+        <span id="button12" class="button"></span>
+    </div>
+    <div id="utilities">
+        Size:
+        <input type="number" value="10" id="pencil-size">
+        Paint Bucket:
+        <input type="checkbox" id="paint-bucket">
+        <br>
+        <button id="download-canvas" onclick="setTimeout(() => {alert('Obrigado por utilizar!')}, 2000)">
+            <a id="download-canvas-link">Download Picture</a>
+        </button>
+    </div>
+    <footer>
+        &copy; Vinicius Rossi
+    </footer>
+    <script src="src/js/index.js"></script>
+</body>
+</html>

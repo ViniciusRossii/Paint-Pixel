@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#paint-div {
+    text-align: center;
+}
+
+#paint {
+    height: 400px;
+    width: 1100px;
+    border: 1px solid black;
+    image-rendering: pixelated;
+    margin-top: 40px;
+}

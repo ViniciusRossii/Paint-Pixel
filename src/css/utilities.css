@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+#utilities {
+    text-align: center;
+}
+
+#pencil-size {
+    width: 40px;
+    margin-top: 15px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+#paint-bucket {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+}
+
+#download-canvas {
+    margin-top: 15px;
+}
