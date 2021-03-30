@@ -107,6 +107,7 @@
  - [ ] Cores Personalizadas
  - [ ] Botão de Apagar
  - [ ] O Desenho ficará salvo mesmo após dar refresh na página
+ - [x] Responsividade
  
  E muito mais!
 ***
