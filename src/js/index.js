@@ -55,6 +55,14 @@ document.getElementById('pencil-size').addEventListener('input', () => {
     pencil.pencilSize = document.getElementById('pencil-size').value
 })
 
+paintBucket.addEventListener('click', () => {
+    paintBucket.classList.toggle('checked')
+})
+
+document.getElementById('clear').addEventListener('click', () => {
+    const clearConfirm = confirm('Deseja realmente limpar o desenho?') 
+    clearConfirm == true ? setWhiteScreen() : null
+})
 
 for (var c = 0; c < document.getElementsByClassName('button').length; c++) {
     document.getElementsByClassName('button')[c].addEventListener('click', (event) => {
@@ -81,7 +89,7 @@ function setButtonBackground() {
 
 function fillPixel() {
     paint.fillStyle = pencil.color
-    if (paintBucket.checked == true) {
+    if (paintBucket.classList.contains('checked') == true) {
         paint.fillRect(0, 0, document.getElementById('paint').width, document.getElementById('paint').height)
         downloadCanvas()
         return
