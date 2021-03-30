@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@media (max-width: 1024px) {
+    #paint {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    #paint {
+        height: 300px;
+    }
+}
