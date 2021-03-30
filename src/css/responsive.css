@@ -11,3 +11,9 @@
         height: 300px;
     }
 }
+
+@media (max-height: 640px) {
+    header h1 {
+        margin-top: 15px;
+    }
+}
